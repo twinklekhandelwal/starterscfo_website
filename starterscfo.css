@@ -92,7 +92,8 @@ font-size:14px;
     width:100%;
     background-color: #425089;
 }
-@media (max-width: 777px) { 
+
+@media (max-width: 767px) { 
 .link-item{
         display:none;
     }
@@ -105,8 +106,20 @@ font-size:14px;
     .Register{
         display:none;
     }
-    
+    /* .hero__background{
+        display:none;
+    } */
+    .heading{
+        text-align: center;
+    }
+    .main{
+    height:100px;
+    }
+    .content_row .content{
+        margin:50px 10px;
+        }
 }
+
 .hero__background{
     
 background-image: url(https://www.starterscfo.com/static/svg/hero.svg);
@@ -141,3 +154,35 @@ color:#2d3e50;
 h3{
     padding-top:20px;
 }
+.content_row .content{
+margin:50px 120px;
+}
+.text-center{
+    text-align: center
+}
+
+@media (max-width: 590px) { 
+    .content_row .content{
+        margin:50px 40px;
+        }
+    }
+    @media (max-width: 528px) { 
+        .content_row .content{
+            margin:50px 15px;background-color: #415089;
+        }
+    }
+    .company_card .card-header{
+        background-color: #415089;
+    }
+    .card-header .cards_heading{
+        font-size:13px;
+        color:white;
+        text-align: center;
+    }
+    .card-header .cards_main_heading{
+        color:white;
+        text-align: center; 
+    }
+    .list-group .color-item{
+        background-color:#f4f8fb;;
+    }

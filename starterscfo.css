@@ -118,6 +118,9 @@ font-size:14px;
     .content_row .content{
         margin:50px 10px;
         }
+        .parternership{
+            margin-left:0px;
+        }
 }
 
 .hero__background{
@@ -186,3 +189,4 @@ margin:50px 120px;
     .list-group .color-item{
         background-color:#f4f8fb;;
     }
+    
